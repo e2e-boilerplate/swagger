@@ -85,6 +85,23 @@
           }
         }
       }
+    },
+    "/platforms/nodejs/index.json": {
+      "get": {
+        "tags": [
+          "nodejs"
+        ],
+        "summary": "Finds frameworks that runs inside a Node.js.",
+        "description": "List e2e automation frameworks that could run inside a Node.js environment.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
