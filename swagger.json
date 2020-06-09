@@ -32,16 +32,16 @@
       }
     },
     {
-      "name": "cypress",
-      "description": "Cypress boilerplates building blocks",
+      "name": "nodejs",
+      "description": "Node.js land for JavaScript e2e test automation",
       "externalDocs": {
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
       }
     },
     {
-      "name": "nightwatch",
-      "description": "Nightwatch boilerplates building blocks",
+      "name": "cypress",
+      "description": "Cypress boilerplate building blocks",
       "externalDocs": {
         "description": "Find out more",
         "url": "https://github.com/e2e-boilerplate"
