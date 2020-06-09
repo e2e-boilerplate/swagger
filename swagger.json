@@ -102,6 +102,40 @@
           }
         }
       }
+    },
+    "/platforms/browsers/cypress/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress JavaScript implementations.",
+        "description": "List Cypress JavaScript implementations..",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress ES Next implementations.",
+        "description": "List possible Cypress ES Next implementations.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
