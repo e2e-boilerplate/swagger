@@ -1,0 +1,2 @@
+# swagger
+Static API documentation
