@@ -136,6 +136,57 @@
           }
         }
       }
+    },
+    "/platforms/browsers/cypress/es-modules/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress ES Next implementations using Chai.",
+        "description": "List possible Cypress ES Next implementations using Chai as test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress ES Next implementations using Cucumber.",
+        "description": "List possible Cypress ES Next implementations using Cucumber.js as test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress ES Next implementations using Cucumber.",
+        "description": "List possible Cypress ES Next implementations using Cucumber.js as test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
