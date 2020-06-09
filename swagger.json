@@ -187,6 +187,176 @@
           }
         }
       }
+    },
+    "/platforms/browsers/cypress/typescript/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations",
+        "description": "List possible Cypress TypeScript implementations.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Browserify.",
+        "description": "List possible Cypress TypeScript implementations Browserify preprocessor.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Browserify with Chai.",
+        "description": "List possible Cypress TypeScript implementations Browserify preprocessor and Chai test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Browserify with Jest.",
+        "description": "List possible Cypress TypeScript implementations Browserify preprocessor and Jest test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/null/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Chai.",
+        "description": "List possible Cypress TypeScript default implementations using Chai.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/null/cucumber/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Cucumber.js.",
+        "description": "List possible Cypress TypeScript default implementations using Cucumber.js",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/null/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Jest.",
+        "description": "List possible Cypress TypeScript default implementations using Jest.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Webpack.",
+        "description": "List possible Cypress TypeScript implementations Webpack preprocessor.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/chai/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Webpack with Chai.",
+        "description": "List possible Cypress TypeScript implementations Webpack preprocessor and Chai test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/jest/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Finds Cypress TypeScript implementations using Webpack with Jest.",
+        "description": "List possible Cypress TypeScript implementations Webpack preprocessor and Jest test runner.",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "externalDocs": {
