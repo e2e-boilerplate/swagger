@@ -1,0 +1,46 @@
+swagger: "2.0"
+info:
+  description: "A documentation for the static API for the e2e-boilerplate Picker application."
+  version: "1.0.0"
+  title: "e2e Boilerplate"
+  contact:
+    email: "e2eboilerplate@gmail.com"
+  license:
+    name: "MIT"
+    url: "https://github.com/e2e-boilerplate/swagger/blob/master/LICENSE"
+host: "e2e-boilerplate.github.io"
+basePath: "/api/v1"
+tags:
+  - name: "platform"
+    description: "Platforms for JavaScript automation"
+    externalDocs:
+      description: "Find out more"
+      url: "https://github.com/e2e-boilerplate"
+  - name: "cypress"
+    description: "Cypress boilerplates building blocks"
+    externalDocs:
+      description: "Find out more"
+      url: "https://github.com/e2e-boilerplate"
+  - name: "nightwatch"
+    description: "Nightwatch boilerplates building blocks"
+    externalDocs:
+      description: "Find out more"
+      url: "https://github.com/e2e-boilerplate"
+schemes:
+  - "https"
+paths:
+  /platforms.json:
+    get:
+      tags:
+        - "platforms"
+      summary: "Finds Platforms"
+      description: "List possible platforms where a JavaScript ene-to-end test automation can be executed."
+      produces:
+        - "application/json"
+      responses:
+        "200":
+          description: "OK"
+
+externalDocs:
+  description: "Find out more about e2e Boilerplate"
+  url: "https://github.com/e2e-boilerplate"
