@@ -211,7 +211,7 @@
           "cypress"
         ],
         "summary": "Finds Cypress TypeScript implementations using Browserify.",
-        "description": "List possible Cypress TypeScript implementations Browserify preprocessor.",
+        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor.",
         "produces": [
           "application/json"
         ],
@@ -227,8 +227,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Browserify with Chai.",
-        "description": "List possible Cypress TypeScript implementations Browserify preprocessor and Chai test runner.",
+        "summary": "Finds Cypress TypeScript implementations using using Browserify with Chai.",
+        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor and Chai test runner.",
         "produces": [
           "application/json"
         ],
@@ -244,8 +244,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Browserify with Jest.",
-        "description": "List possible Cypress TypeScript implementations Browserify preprocessor and Jest test runner.",
+        "summary": "Finds Cypress TypeScript implementations using using Browserify with Jest.",
+        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor and Jest test runner.",
         "produces": [
           "application/json"
         ],
@@ -313,7 +313,7 @@
           "cypress"
         ],
         "summary": "Finds Cypress TypeScript implementations using Webpack.",
-        "description": "List possible Cypress TypeScript implementations Webpack preprocessor.",
+        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor.",
         "produces": [
           "application/json"
         ],
@@ -330,7 +330,7 @@
           "cypress"
         ],
         "summary": "Finds Cypress TypeScript implementations using Webpack with Chai.",
-        "description": "List possible Cypress TypeScript implementations Webpack preprocessor and Chai test runner.",
+        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor and Chai test runner.",
         "produces": [
           "application/json"
         ],
@@ -347,7 +347,7 @@
           "cypress"
         ],
         "summary": "Finds Cypress TypeScript implementations using Webpack with Jest.",
-        "description": "List possible Cypress TypeScript implementations Webpack preprocessor and Jest test runner.",
+        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor and Jest test runner.",
         "produces": [
           "application/json"
         ],
