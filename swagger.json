@@ -69,7 +69,7 @@
         }
       }
     },
-    "/platforms/browser/index.json": {
+    "/platforms/browsers/index.json": {
       "get": {
         "tags": [
           "browser"
