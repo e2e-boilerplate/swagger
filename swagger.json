@@ -52,64 +52,13 @@
     "https"
   ],
   "paths": {
-    "/platforms/index.json": {
-      "get": {
-        "tags": [
-          "platforms"
-        ],
-        "summary": "Finds Platforms",
-        "description": "List possible platforms where a JavaScript ene-to-end test automation can be executed.",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms/browsers/index.json": {
-      "get": {
-        "tags": [
-          "browser"
-        ],
-        "summary": "Finds frameworks that runs inside a browser.",
-        "description": "List e2e automation frameworks that could run inside a browser environment.",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms/nodejs/index.json": {
-      "get": {
-        "tags": [
-          "nodejs"
-        ],
-        "summary": "Finds frameworks that runs inside a Node.js.",
-        "description": "List e2e automation frameworks that could run inside a Node.js environment.",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms/browsers/cypress/index.json": {
+    "/frameworks/browser.json": {
       "get": {
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress JavaScript implementations.",
-        "description": "List Cypress JavaScript implementations..",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -120,13 +69,98 @@
         }
       }
     },
-    "/platforms/browsers/cypress/es-modules/index.json": {
+    "/frameworks/nodejs.json": {
       "get": {
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress ES Next implementations.",
-        "description": "List possible Cypress ES Next implementations.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/frameworks/wofnodejs.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/javascript.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -142,8 +176,59 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress ES Next implementations using Chai.",
-        "description": "List possible Cypress ES Next implementations using Chai as test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/cucumber/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/cucumber/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -159,8 +244,42 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress ES Next implementations using Cucumber.",
-        "description": "List possible Cypress ES Next implementations using Cucumber.js as test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/cucumber/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -176,8 +295,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress ES Next implementations using Cucumber.",
-        "description": "List possible Cypress ES Next implementations using Cucumber.js as test runner.",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -188,30 +307,13 @@
         }
       }
     },
-    "/platforms/browsers/cypress/typescript/index.json": {
+    "/platforms/browsers/cypress/index.json": {
       "get": {
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations",
-        "description": "List possible Cypress TypeScript implementations.",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms/browsers/cypress/typescript/browserify/index.json": {
-      "get": {
-        "tags": [
-          "cypress"
-        ],
-        "summary": "Finds Cypress TypeScript implementations using Browserify.",
-        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor.",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -227,8 +329,25 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using using Browserify with Chai.",
-        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor and Chai test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -244,8 +363,25 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using using Browserify with Jest.",
-        "description": "List possible Cypress TypeScript implementations using Browserify preprocessor and Jest test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -261,8 +397,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Chai.",
-        "description": "List possible Cypress TypeScript default implementations using Chai.",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -278,8 +414,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Cucumber.js.",
-        "description": "List possible Cypress TypeScript default implementations using Cucumber.js",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -295,25 +431,8 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Jest.",
-        "description": "List possible Cypress TypeScript default implementations using Jest.",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms/browsers/cypress/typescript/webpack/index.json": {
-      "get": {
-        "tags": [
-          "cypress"
-        ],
-        "summary": "Finds Cypress TypeScript implementations using Webpack.",
-        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor.",
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -329,8 +448,25 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Webpack with Chai.",
-        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor and Chai test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
@@ -346,8 +482,59 @@
         "tags": [
           "cypress"
         ],
-        "summary": "Finds Cypress TypeScript implementations using Webpack with Jest.",
-        "description": "List possible Cypress TypeScript implementations using Webpack preprocessor and Jest test runner.",
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
         "produces": [
           "application/json"
         ],
