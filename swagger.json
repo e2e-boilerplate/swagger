@@ -52,91 +52,6 @@
     "https"
   ],
   "paths": {
-    "/frameworks/browser.json": {
-      "get": {
-        "tags": [
-          "null"
-        ],
-        "summary": "Todo",
-        "description": "Todo",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/frameworks/nodejs.json": {
-      "get": {
-        "tags": [
-          "null"
-        ],
-        "summary": "Todo",
-        "description": "Todo",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/frameworks/wofnodejs.json": {
-      "get": {
-        "tags": [
-          "null"
-        ],
-        "summary": "Todo",
-        "description": "Todo",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/javascript.json": {
-      "get": {
-        "tags": [
-          ""
-        ],
-        "summary": "Todo",
-        "description": "Todo",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/platforms.json": {
-      "get": {
-        "tags": [
-          ""
-        ],
-        "summary": "Todo",
-        "description": "Todo",
-        "produces": [
-          "application/json"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/platforms/browsers/cypress/es-modules/chai/assert/index.json": {
       "get": {
         "tags": [
@@ -532,6 +447,23 @@
       "get": {
         "tags": [
           "nodejs"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
         ],
         "summary": "Todo",
         "description": "Todo",
