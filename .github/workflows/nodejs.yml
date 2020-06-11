@@ -1,4 +1,4 @@
-name: Update Swagger UI
+name: swagger
 on:
   schedule:
     - cron:  '0 10 * * *'
