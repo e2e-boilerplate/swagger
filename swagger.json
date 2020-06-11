@@ -205,6 +205,23 @@
         }
       }
     },
+    "/platforms/browsers/cypress/es-modules/jest/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/browsers/cypress/es-modules/jest/index.json": {
       "get": {
         "tags": [
@@ -239,6 +256,40 @@
         }
       }
     },
+    "/platforms/browsers/cypress/typescript/browserify/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/browsers/cypress/typescript/browserify/chai/index.json": {
       "get": {
         "tags": [
@@ -256,7 +307,41 @@
         }
       }
     },
+    "/platforms/browsers/cypress/typescript/browserify/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/browsers/cypress/typescript/browserify/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/browserify/jest/expect/index.json": {
       "get": {
         "tags": [
           "cypress"
@@ -358,6 +443,40 @@
         }
       }
     },
+    "/platforms/browsers/cypress/typescript/webpack/chai/assert/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/chai/expect/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/browsers/cypress/typescript/webpack/chai/index.json": {
       "get": {
         "tags": [
@@ -375,7 +494,41 @@
         }
       }
     },
+    "/platforms/browsers/cypress/typescript/webpack/chai/should/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/browsers/cypress/typescript/webpack/index.json": {
+      "get": {
+        "tags": [
+          "cypress"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/browsers/cypress/typescript/webpack/jest/expect/index.json": {
       "get": {
         "tags": [
           "cypress"
@@ -460,7 +613,194 @@
         }
       }
     },
+    "/platforms/nodejs/nightwatch/commonjs/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/commonjs/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/commonjs/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/es-modules/babel/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/es-modules/babel/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/es-modules/babel/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/es-modules/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/platforms/nodejs/nightwatch/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/typescript/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/typescript/tsc/assert/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/typescript/tsc/expect/index.json": {
+      "get": {
+        "tags": [
+          "nightwatch"
+        ],
+        "summary": "Todo",
+        "description": "Todo",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/platforms/nodejs/nightwatch/typescript/tsc/index.json": {
       "get": {
         "tags": [
           "nightwatch"
