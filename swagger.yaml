@@ -471,847 +471,847 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/index.json: 
+    /platforms/nodejs/no_framework/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/chai/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/chai/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/cucumber/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jasmine/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/chai/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/chai/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/mocha/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/commonjs/tape/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/tape/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/ava/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/ava/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jasmine/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/mocha/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/mocha/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/mocha/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/mocha/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/babel/tape/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/tape/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/cucumber/chai/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/cucumber/chai/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/cucumber/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/mocha/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/mocha/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/mocha/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/mocha/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/esm/tape/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/tape/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/es-modules/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/ava/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/ava/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/jasmine/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/selenium-webdriver/typescript/ts-node/tape/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/tape/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/cucumber/chai/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/cucumber/chai/should/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/jest/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/mocha/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/mocha/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/mocha/chai/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/mocha/chai/should/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/commonjs/webdriver-manager/mocha/index.json: 
+    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel-jest/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel-jest/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel-jest/webdriver-manager/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel-jest/webdriver-manager/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel-jest/webdriver-manager/jest/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel/webdriver-manager/ava/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/ava/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel/webdriver-manager/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/babel/webdriver-manager/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/es-modules/index.json: 
+    /platforms/nodejs/no_framework/wd/es-modules/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/index.json: 
+    /platforms/nodejs/no_framework/wd/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-jest/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-jest/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-jest/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-jest/jest/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/webdriver-manager/ava/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/ava/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/null/wd/typescript/ts-node/webdriver-manager/jasmine/index.json: 
+    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json: 
       get: 
         tags: 
-          - "null"
+          - "no_framework"
         produces: 
           - "application/json"
         responses: 
