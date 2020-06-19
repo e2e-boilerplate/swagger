@@ -568,7 +568,7 @@
     "/platforms/browser/framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "framework"
         ],
         "produces": [
           "application/json"
@@ -598,7 +598,7 @@
     "/platforms/browser/no_framework/index.json": {
       "get": {
         "tags": [
-          "index.json"
+          "no_framework"
         ],
         "produces": [
           "application/json"
