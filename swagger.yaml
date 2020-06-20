@@ -84,105 +84,6 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/es-modules/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/chai/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/chai/should/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/cucumber/assert/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/cucumber/expect/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/cucumber/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/cucumber/should/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/jest/expect/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/browser/framework/cypress/es-modules/jest/index.json: 
-      get: 
-        tags: 
-          - "cypress"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
     /platforms/browser/framework/cypress/index.json: 
       get: 
         tags: 
@@ -192,7 +93,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/chai/assert/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/chai/assert/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -201,7 +102,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/chai/expect/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/chai/expect/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -210,7 +111,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/chai/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/chai/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -219,7 +120,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/chai/should/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/chai/should/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -228,7 +129,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/cucumber/assert/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -237,7 +138,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/jest/expect/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/cucumber/expect/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -246,7 +147,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/browserify/jest/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/cucumber/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -255,7 +156,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/cucumber/should/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -264,7 +165,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/null/chai/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -273,7 +174,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/null/cucumber/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/jest/expect/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -282,7 +183,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/null/jest/index.json: 
+    /platforms/browser/framework/cypress/non_standard/es-modules/jest/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -291,7 +192,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/chai/assert/index.json: 
+    /platforms/browser/framework/cypress/non_standard/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -300,7 +201,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/chai/expect/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/chai/assert/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -309,7 +210,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/chai/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/chai/expect/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -318,7 +219,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/chai/should/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/chai/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -327,7 +228,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/chai/should/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -336,7 +237,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/jest/expect/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -345,7 +246,124 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/browser/framework/cypress/typescript/webpack/jest/index.json: 
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/jest/expect/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/browserify/jest/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/null/chai/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/null/cucumber/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/null/jest/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/chai/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/chai/should/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/jest/expect/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/non_standard/typescript/webpack/jest/index.json: 
+      get: 
+        tags: 
+          - "cypress"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/browser/framework/cypress/standard/index.json: 
       get: 
         tags: 
           - "cypress"
@@ -399,69 +417,6 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/nightwatch/commonjs/assert/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/commonjs/expect/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/commonjs/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/es-modules/babel/assert/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/es-modules/babel/expect/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/es-modules/babel/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/nightwatch/es-modules/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
     /platforms/nodejs/framework/nightwatch/index.json: 
       get: 
         tags: 
@@ -471,7 +426,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/nightwatch/typescript/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/es-modules/babel/assert/index.json: 
       get: 
         tags: 
           - "nightwatch"
@@ -480,7 +435,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/nightwatch/typescript/tsc/assert/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/es-modules/babel/expect/index.json: 
       get: 
         tags: 
           - "nightwatch"
@@ -489,7 +444,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/nightwatch/typescript/tsc/expect/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "nightwatch"
@@ -498,7 +453,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/nightwatch/typescript/tsc/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/es-modules/index.json: 
       get: 
         tags: 
           - "nightwatch"
@@ -507,271 +462,64 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/assert/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/typescript/tsc/assert/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/typescript/tsc/expect/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/chai/index.json: 
+    /platforms/nodejs/framework/nightwatch/non_standard/typescript/tsc/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/expect/index.json: 
+    /platforms/nodejs/framework/nightwatch/standard/commonjs/assert/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/cucumber/index.json: 
+    /platforms/nodejs/framework/nightwatch/standard/commonjs/expect/index.json: 
       get: 
         tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/index.json: 
+    /platforms/nodejs/framework/nightwatch/standard/commonjs/index.json: 
       get: 
         tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jasmine/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jasmine/expect/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jasmine/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jest/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jest/expect/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/jest/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/chai/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/chai/should/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/commonjs/mocha/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/babel/ava/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/babel/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/babel/jest/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/chai/should/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/esm/mocha/index.json: 
-      get: 
-        tags: 
-          - "playwright"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/playwright/es-modules/index.json: 
-      get: 
-        tags: 
-          - "playwright"
+          - "nightwatch"
         produces: 
           - "application/json"
         responses: 
@@ -786,7 +534,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/babel/ava/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -795,7 +543,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-jest/assert/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -804,7 +552,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-jest/expect/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/babel/jest/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -813,7 +561,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-jest/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -822,7 +570,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-node/assert/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/assert/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -831,7 +579,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-node/expect/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/chai/assert/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -840,7 +588,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/playwright/typescript/ts-node/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/chai/expect/index.json: 
       get: 
         tags: 
           - "playwright"
@@ -849,271 +597,289 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/chai/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/esm/mocha/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/jasmine/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/es-modules/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/mocha/chai/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-jest/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-jest/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/commonjs/mocha/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-jest/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-node/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-node/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/playwright/non_standard/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/jasmine/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/assert/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/chai/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/chai/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/chai/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/cucumber/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/babel/mocha/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jasmine/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/jasmine/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jest/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/assert/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jest/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/jest/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/esm/mocha/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/chai/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/es-modules/index.json: 
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "protractor"
+          - "playwright"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/playwright/standard/commonjs/mocha/index.json: 
+      get: 
+        tags: 
+          - "playwright"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/playwright/standard/index.json: 
+      get: 
+        tags: 
+          - "playwright"
         produces: 
           - "application/json"
         responses: 
@@ -1128,7 +894,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1137,7 +903,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/jasmine/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1146,7 +912,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/jasmine/expect/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1155,7 +921,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/jasmine/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1164,7 +930,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/jasmine/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1173,7 +939,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/chai/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1182,7 +948,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/chai/expect/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1191,7 +957,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/chai/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1200,7 +966,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/chai/should/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1209,7 +975,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/babel/mocha/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1218,7 +984,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/ts-node/mocha/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1227,7 +993,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/jasmine/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1236,7 +1002,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/jasmine/expect/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1245,7 +1011,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/jasmine/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1254,7 +1020,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/jasmine/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1263,7 +1029,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/chai/assert/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1272,7 +1038,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/chai/expect/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1281,7 +1047,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/chai/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1290,7 +1056,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/chai/should/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1299,7 +1065,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/esm/mocha/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1308,7 +1074,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/protractor/typescript/tsc/mocha/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/es-modules/index.json: 
       get: 
         tags: 
           - "protractor"
@@ -1317,262 +1083,289 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/chai/should/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/cucumber/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/jasmine/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/jasmine/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/chai/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/ts-node/mocha/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/commonjs/mocha/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/jasmine/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/babel/ava/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/babel/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/babel/jest/assert/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/babel/jest/expect/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/chai/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/babel/jest/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/index.json: 
+    /platforms/nodejs/framework/protractor/non_standard/typescript/tsc/mocha/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/assert/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/jasmine/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/mocha/chai/assert/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/esm/mocha/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/mocha/chai/expect/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/es-modules/index.json: 
+    /platforms/nodejs/framework/protractor/standard/commonjs/mocha/chai/index.json: 
       get: 
         tags: 
-          - "puppeteer"
+          - "protractor"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/protractor/standard/commonjs/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "protractor"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/protractor/standard/commonjs/mocha/index.json: 
+      get: 
+        tags: 
+          - "protractor"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/protractor/standard/index.json: 
+      get: 
+        tags: 
+          - "protractor"
         produces: 
           - "application/json"
         responses: 
@@ -1587,7 +1380,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/babel/ava/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1596,7 +1389,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-jest/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1605,7 +1398,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/babel/jest/assert/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1614,7 +1407,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/expect/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/babel/jest/expect/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1623,7 +1416,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-jest/jest/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/babel/jest/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1632,7 +1425,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-node/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1641,7 +1434,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/assert/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1650,7 +1443,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/chai/assert/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1659,7 +1452,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/puppeteer/typescript/ts-node/jasmine/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/chai/expect/index.json: 
       get: 
         tags: 
           - "puppeteer"
@@ -1668,109 +1461,271 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/chai/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/chai/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/chai/should/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/chai/expect/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/esm/mocha/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/chai/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/es-modules/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/chai/should/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/commonjs/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-jest/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/chai/assert/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-jest/jest/assert/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/chai/expect/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-jest/jest/expect/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/chai/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-jest/jest/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/chai/should/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/es-modules/index.json: 
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-node/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "testcafe"
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-node/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/non_standard/typescript/ts-node/jasmine/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/assert/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/chai/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/chai/should/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/cucumber/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/jasmine/assert/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/jasmine/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/assert/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/chai/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/puppeteer/standard/commonjs/mocha/index.json: 
+      get: 
+        tags: 
+          - "puppeteer"
         produces: 
           - "application/json"
         responses: 
@@ -1785,7 +1740,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/assert/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1794,7 +1749,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/chai/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/chai/assert/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1803,7 +1758,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/chai/expect/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/chai/expect/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1812,7 +1767,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/chai/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/chai/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1821,7 +1776,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/chai/should/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/chai/should/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1830,7 +1785,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/testcafe/typescript/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/es-modules/index.json: 
       get: 
         tags: 
           - "testcafe"
@@ -1839,199 +1794,136 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/cucumber/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/cucumber/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/assert/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/chai/assert/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/chai/expect/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/chai/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/jasmine/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/chai/should/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/testcafe/non_standerdindex.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/assert/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/chai/assert/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/commonjs/mocha/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/chai/expect/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/chai/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/chai/should/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/commonjs/index.json: 
       get: 
         tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/jasmine/index.json: 
+    /platforms/nodejs/framework/testcafe/standard/index.json: 
       get: 
         tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/chai/should/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/babel/mocha/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/framework/webdriverio/es-modules/index.json: 
-      get: 
-        tags: 
-          - "webdriverio"
+          - "testcafe"
         produces: 
           - "application/json"
         responses: 
@@ -2046,7 +1938,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2055,7 +1947,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/jasmine/assert/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2064,7 +1956,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/assert/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/jasmine/expect/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2073,7 +1965,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/expect/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/jasmine/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2082,7 +1974,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/jasmine/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/assert/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2091,7 +1983,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/assert/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/chai/assert/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2100,7 +1992,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/assert/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/chai/expect/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2109,7 +2001,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/expect/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/chai/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2118,7 +2010,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/chai/should/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2127,7 +2019,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/chai/should/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/babel/mocha/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2136,7 +2028,223 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/framework/webdriverio/typescript/ts-node/mocha/index.json: 
+    /platforms/nodejs/framework/webdriverio/non_standard/es-modules/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/jasmine/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/jasmine/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/chai/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/non_standard/typescript/ts-node/mocha/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/cucumber/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/cucumber/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/jasmine/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/jasmine/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/mocha/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/mocha/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/mocha/chai/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/commonjs/mocha/index.json: 
+      get: 
+        tags: 
+          - "webdriverio"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/framework/webdriverio/standard/index.json: 
       get: 
         tags: 
           - "webdriverio"
@@ -2163,411 +2271,6 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/chai/should/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/cucumber/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jasmine/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/jest/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/chai/should/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/mocha/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/commonjs/tape/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/ava/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jasmine/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/jest/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/mocha/should/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/babel/tape/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/chai/should/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/cucumber/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/assert/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/expect/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/mocha/should/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/esm/tape/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/es-modules/index.json: 
-      get: 
-        tags: 
-          - "selenium-webdriver"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
     /platforms/nodejs/no_framework/selenium-webdriver/index.json: 
       get: 
         tags: 
@@ -2577,7 +2280,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/ava/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2586,7 +2289,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2595,7 +2298,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jasmine/assert/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2604,7 +2307,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jasmine/expect/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2613,7 +2316,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/ava/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jasmine/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2622,7 +2325,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jest/assert/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2631,7 +2334,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jest/expect/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2640,7 +2343,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/jest/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2649,7 +2352,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/jasmine/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/mocha/assert/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2658,7 +2361,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/selenium-webdriver/typescript/ts-node/tape/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/mocha/expect/index.json: 
       get: 
         tags: 
           - "selenium-webdriver"
@@ -2667,226 +2370,424 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/mocha/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/mocha/should/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/babel/tape/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/cucumber/chai/assert/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/cucumber/chai/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/cucumber/chai/expect/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/cucumber/chai/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/cucumber/chai/should/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/cucumber/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/mocha/assert/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/mocha/expect/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/mocha/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/chai/should/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/mocha/should/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/commonjs/webdriver-manager/mocha/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/esm/tape/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/es-modules/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-jest/assert/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel-jest/webdriver-manager/jest/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-jest/expect/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-jest/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/ava/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/ava/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/jasmine/assert/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/babel/webdriver-manager/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/jasmine/expect/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/es-modules/index.json: 
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/jasmine/index.json: 
       get: 
         tags: 
-          - "wd"
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/non_standard/typescript/ts-node/tape/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/chai/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/chai/should/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/cucumber/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jasmine/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jasmine/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jest/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jest/expect/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/jest/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/chai/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/mocha/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/commonjs/tape/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/selenium-webdriver/standard/index.json: 
+      get: 
+        tags: 
+          - "selenium-webdriver"
         produces: 
           - "application/json"
         responses: 
@@ -2901,7 +2802,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel-jest/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2910,7 +2811,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-jest/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel-jest/webdriver-manager/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2919,7 +2820,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel-jest/webdriver-manager/jest/assert/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2928,7 +2829,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel-jest/webdriver-manager/jest/expect/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2937,7 +2838,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-jest/jest/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel-jest/webdriver-manager/jest/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2946,7 +2847,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2955,7 +2856,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/ava/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel/webdriver-manager/ava/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2964,7 +2865,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel/webdriver-manager/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2973,7 +2874,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/assert/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel/webdriver-manager/jasmine/assert/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2982,7 +2883,7 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/expect/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/babel/webdriver-manager/jasmine/expect/index.json: 
       get: 
         tags: 
           - "wd"
@@ -2991,7 +2892,259 @@
         responses: 
           200: 
             description: "OK"
-    /platforms/nodejs/no_framework/wd/typescript/ts-node/webdriver-manager/jasmine/index.json: 
+    /platforms/nodejs/no_framework/wd/non_standard/es-modules/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-jest/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-jest/jest/assert/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-jest/jest/expect/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-jest/jest/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/webdriver-manager/ava/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/webdriver-manager/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/webdriver-manager/jasmine/assert/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/webdriver-manager/jasmine/expect/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/non_standard/typescript/ts-node/webdriver-manager/jasmine/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/cucumber/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/cucumber/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/cucumber/chai/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/cucumber/chai/should/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/jest/assert/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/jest/expect/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/jest/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/chai/assert/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/chai/expect/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/chai/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/chai/should/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/commonjs/webdriver-manager/mocha/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standard/index.json: 
+      get: 
+        tags: 
+          - "wd"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
+    /platforms/nodejs/no_framework/wd/standardindex.json: 
       get: 
         tags: 
           - "wd"
