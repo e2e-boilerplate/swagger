@@ -402,7 +402,7 @@
     /land/index.json: 
       get: 
         tags: 
-          - "platforms"
+          - "land"
         produces: 
           - "application/json"
         responses: 
