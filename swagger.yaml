@@ -471,6 +471,15 @@
         responses: 
           200: 
             description: "OK"
+    /land/nodejs/framework/nightwatch/non_standard/index.json: 
+      get: 
+        tags: 
+          - "nightwatch"
+        produces: 
+          - "application/json"
+        responses: 
+          200: 
+            description: "OK"
     /land/nodejs/framework/nightwatch/non_standard/typescript/index.json: 
       get: 
         tags: 
@@ -499,15 +508,6 @@
           200: 
             description: "OK"
     /land/nodejs/framework/nightwatch/non_standard/typescript/tsc/index.json: 
-      get: 
-        tags: 
-          - "nightwatch"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /land/nodejs/framework/nightwatch/non_standardindex.json: 
       get: 
         tags: 
           - "nightwatch"
@@ -3172,15 +3172,6 @@
           200: 
             description: "OK"
     /land/nodejs/no_framework/wd/standard/index.json: 
-      get: 
-        tags: 
-          - "wd"
-        produces: 
-          - "application/json"
-        responses: 
-          200: 
-            description: "OK"
-    /land/nodejs/no_framework/wd/standardindex.json: 
       get: 
         tags: 
           - "wd"
